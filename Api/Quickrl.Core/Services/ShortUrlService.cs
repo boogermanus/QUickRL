@@ -21,7 +21,7 @@ namespace Quickrl.Core.Services
             domainModel.CreateDate = DateTime.Now;
             domainModel.HitCount = 0;
             domainModel.UserId = Guid.NewGuid().ToString(); // Need to give this the ability to get users
-            domainModel.ShortUrlId = "test"; // need to generate short URL
+            domainModel.ShortUrlId = "test2"; // need to generate short URL
 
             var newModel = await _shortUrlRepository.Add(domainModel);
 

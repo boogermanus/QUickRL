@@ -9,6 +9,7 @@ namespace Quickrl.Core.ApiModels
         public int Id { get; set; }
         [Required]
         public string RedirectUrl { get; set; }
+        [Required]
         public DateTime? ActiveUntil { get; set; }
         public DateTime CreateDate { get; set; }
         public int HitCount { get; set; }

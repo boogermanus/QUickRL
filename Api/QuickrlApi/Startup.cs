@@ -45,6 +45,7 @@ namespace QuickrlApi
             // custom services
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IShortUrlRepository, ShortUrlRepository>();
+            services.AddScoped<IShortUrlService, ShortUrlService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
