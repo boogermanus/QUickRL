@@ -406,3 +406,5 @@ ASALocalRun/
 
 appsettings.Production.json
 quickrl.db
+quickrl.db-shm
+quickrl.db-wal
